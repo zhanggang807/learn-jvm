@@ -32,7 +32,7 @@ public class SingletonPattern implements Serializable, Cloneable{
     protected SingletonPattern clone() throws CloneNotSupportedException {
         SingletonPattern singletonPattern = (SingletonPattern)super.clone();
         singletonPattern.age = this.age;
-        singletonPattern.name = this.name;
+        singletonPattern.name = new String(this.name);
         return singletonPattern;
     }
 

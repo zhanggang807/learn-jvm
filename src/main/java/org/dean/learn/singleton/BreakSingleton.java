@@ -1,4 +1,4 @@
-package org.dean.learn.jvm;
+package org.dean.learn.singleton;
 
 import java.io.*;
 import java.lang.reflect.Constructor;
@@ -7,7 +7,7 @@ import java.lang.reflect.Constructor;
  * 破坏单例模式
  * Created by Dean on 2016/4/21.
  */
-public class BreakSingle {
+public class BreakSingleton {
 
     /** 可以从heap dump中看出来有四个实例了 */
     public static void main(String[] args) throws Exception{

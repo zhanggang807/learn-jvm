@@ -1,4 +1,4 @@
-package org.dean.learn.jvm;
+package org.dean.learn.singleton;
 
 import java.io.Serializable;
 

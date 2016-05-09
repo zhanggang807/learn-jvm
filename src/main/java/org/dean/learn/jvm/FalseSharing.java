@@ -2,8 +2,8 @@ package org.dean.learn.jvm;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-public final class FalseSharing
-        implements Runnable {
+public final class FalseSharing implements Runnable {
+
     public final static int NUM_THREADS = 4; // change
     public final static long ITERATIONS = 500L * 1000L * 1000L;
     private final int arrayIndex;

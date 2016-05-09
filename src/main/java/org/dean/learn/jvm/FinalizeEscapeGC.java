@@ -4,6 +4,7 @@ package org.dean.learn.jvm;
  * 此代码演示了两点：
  * 1. 对象可以在被GC时自我拯救
  * 2. 这种自我拯救的机会只有一次，因为一个对象的finalize方法最多只会被系统自动调用一次
+ * 代码清单 3-2 一次对象自我拯救的演示
  * Created by Dean on 2016/1/18.
  */
 public class FinalizeEscapeGC {
